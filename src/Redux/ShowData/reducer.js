@@ -14,7 +14,7 @@ export const InputReducer = (store = initState, { type, payload }) => {
     case GET_DATA_LOADING:
       return { ...store, loading: true };
 
-    case GET_DATA_LOADING:
+    case GET_DATA_ERROR:
       return { ...store, error: true };
 
     default:
